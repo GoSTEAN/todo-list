@@ -1,0 +1,86 @@
+
+.body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: azure;
+}
+
+h1 {
+  text-align: start;
+  padding-left: 3%;
+  font-size: 30px;
+
+}
+
+#todo-form {
+  
+/* text-align: start;   */
+  padding-left: 3%;
+
+}
+
+input {
+  width: 15%;
+  height:20px;
+}
+
+button {
+  background-color: tomato;
+  color: white;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  
+}
+
+
+
+.items li {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.done {
+  background-color: #979494;
+}
+
+@media screen {
+  #todo-list {
+    width: 100%;
+    padding-left: 3%;
+  }
+  input {
+    width: 50%;
+    height: 20px;
+  }
+}
+
+@media(max-width: 800px) {
+  #todo-list {
+    width: 100%;
+    padding-left: 2%;
+  }
+  input {
+    width: 50%;
+    height: 20px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  #todo-list {
+    width: 100%;
+    padding-left: 1%;
+  }
+  input {
+    width: 50%;
+    height: 20px;
+  }
+
+}
